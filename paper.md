@@ -162,13 +162,13 @@ One model, Janus-Pro-7B, with one image tokenizer; we do not know whether a unif
 
 ## 11. Reproduction
 
-Code, directions, prompt sets, every contact sheet and every essay are in the repository accompanying this paper. The model is `deepseek-ai/Janus-Pro-7B` from the Hugging Face hub, loaded in bfloat16; all runs fit on one 24 GB GPU (about 17 GB peak), and a drawing condition of sixteen images takes about half a minute.
+Code, directions, prompt sets, every contact sheet and every essay are in the repository accompanying this paper, https://github.com/tqman/minds_eye (CC0). The model is `deepseek-ai/Janus-Pro-7B` from the Hugging Face hub, loaded in bfloat16; all runs fit on one 24 GB GPU (about 17 GB peak), and a drawing condition of sixteen images takes about half a minute.
 
 `minds_eye/` holds the harness: `janus_model.py` (loading, the steering hook, `draw`, `write`, `read_states`, `states_to_image`), `concepts.py` (the sixteen concept and sixteen control sentences per concept and the eight free-draw prompts), `direction.py` (difference-of-means directions and equal-norm random directions), `judge.py` (CLIP and Hough). `scripts/` holds one script per experiment: `run1_pilot.py` (drawing under steer; Section 4), `run1_text.py` (short descriptions under steer; Section 5), `run2_decoder.py` (writing states through the image head, with the EOS mask, the visual-topic essays and the prompt-only variant; Sections 5, 6, 8), `run2_colormask.py` (the color-word mask; Section 6), `run3_mirror.py` and `run3_posthoc.py` (drawing states through the language head; Section 5), `run4_posmap.py` (the per-position map; Section 8), `run5_reading.py` (the reading regime; Section 6), `sweep_summary.py` (the shift metric over layers and doses; Sections 5 and 7). Conditions are selected by environment variables (`ME_CONCEPT`/`ME_CONCEPTS`, `ME_LAYER`, `ME_RATIOS`, `ME_PROMPT_ONLY`, `ME_SUPPRESS_EOS`, `ME_RANDOM_SEEDS`), and the exact invocation for every run reported here is a shell script under `runs/queue_*.sh`, with the run's output under `runs/<run>/` beside it. Seeds are fixed (base seed 0 plus prompt index), and we have confirmed that rerunning a condition reproduces its sheet tile for tile. Each script's docstring records the question it was written to answer.
 
 ## Appendix
 
-This index lists every contact sheet, every essay and description file, and every invocation under `runs/`, grouped by the paper section that reports it. Links are relative so they resolve on GitHub. The smoke test is omitted.
+This index lists every contact sheet, every essay and description file, and every invocation under `runs/`, grouped by the paper section that reports it. Links are relative to the root of the repository, https://github.com/tqman/minds_eye, and resolve there. The smoke test is omitted.
 
 ### A. Contact sheets
 

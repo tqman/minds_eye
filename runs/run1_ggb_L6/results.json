@@ -1,0 +1,48 @@
+{
+  "concept": "ggb",
+  "layer": 6,
+  "dir_norm": 13.066943168640137,
+  "resid_norm": 66.73859405517578,
+  "rows": [
+    {
+      "label": "baseline",
+      "cond": "ggb",
+      "ratio": 0.0,
+      "scale": 0.0,
+      "mean_coffee": 0.029,
+      "frac_over_0.5": 0.0
+    },
+    {
+      "label": "ggb_r0.25",
+      "cond": "ggb",
+      "ratio": 0.25,
+      "scale": 1.2769,
+      "mean_coffee": 0.059,
+      "frac_over_0.5": 0.0
+    },
+    {
+      "label": "random_r0.25",
+      "cond": "random",
+      "ratio": 0.25,
+      "scale": 1.2769,
+      "mean_coffee": 0.051,
+      "frac_over_0.5": 0.062
+    },
+    {
+      "label": "ggb_r0.4",
+      "cond": "ggb",
+      "ratio": 0.4,
+      "scale": 2.043,
+      "mean_coffee": 0.113,
+      "frac_over_0.5": 0.125
+    },
+    {
+      "label": "random_r0.4",
+      "cond": "random",
+      "ratio": 0.4,
+      "scale": 2.043,
+      "mean_coffee": 0.024,
+      "frac_over_0.5": 0.0
+    }
+  ]
+}

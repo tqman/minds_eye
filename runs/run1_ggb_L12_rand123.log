@@ -1,0 +1,24 @@
+/home/quark/miniconda3/lib/python3.12/site-packages/transformers/models/auto/image_processing_auto.py:640: FutureWarning: The image_processor_class argument is deprecated and will be removed in v4.42. Please use `slow_image_processor_class`, or `fast_image_processor_class` instead
+  warnings.warn(
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+Python version is above 3.10, patching the collections module.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.60s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.83s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.94s/it]
+layer 12: dir_norm=74.4 resid_norm=207.8 base_scale(r=1)=2.794
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+{'label': 'random_s1_r0.3', 'cond': 'random_s1', 'ratio': 0.3, 'scale': 0.8382, 'mean_coffee': 0.091, 'frac_over_0.5': 0.062}
+{'label': 'random_s2_r0.3', 'cond': 'random_s2', 'ratio': 0.3, 'scale': 0.8382, 'mean_coffee': 0.035, 'frac_over_0.5': 0.0}
+{'label': 'random_s3_r0.3', 'cond': 'random_s3', 'ratio': 0.3, 'scale': 0.8382, 'mean_coffee': 0.06, 'frac_over_0.5': 0.0}
+{'label': 'random_s1_r0.45', 'cond': 'random_s1', 'ratio': 0.45, 'scale': 1.2573, 'mean_coffee': 0.121, 'frac_over_0.5': 0.125}
+{'label': 'random_s2_r0.45', 'cond': 'random_s2', 'ratio': 0.45, 'scale': 1.2573, 'mean_coffee': 0.025, 'frac_over_0.5': 0.0}
+{'label': 'random_s3_r0.45', 'cond': 'random_s3', 'ratio': 0.45, 'scale': 1.2573, 'mean_coffee': 0.039, 'frac_over_0.5': 0.0}
+
+== summary ==
+  random_s1_r0.3  mean=0.091  frac>0.5=0.062
+  random_s2_r0.3  mean=0.035  frac>0.5=0.000
+  random_s3_r0.3  mean=0.060  frac>0.5=0.000
+  random_s1_r0.45  mean=0.121  frac>0.5=0.125
+  random_s2_r0.45  mean=0.025  frac>0.5=0.000
+  random_s3_r0.45  mean=0.039  frac>0.5=0.000
+
+total 697s

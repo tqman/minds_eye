@@ -1,0 +1,30 @@
+/home/quark/miniconda3/lib/python3.12/site-packages/transformers/models/auto/image_processing_auto.py:640: FutureWarning: The image_processor_class argument is deprecated and will be removed in v4.42. Please use `slow_image_processor_class`, or `fast_image_processor_class` instead
+  warnings.warn(
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+Python version is above 3.10, patching the collections module.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.25s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.51s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.62s/it]
+layer 12: dir_norm=74.4 resid_norm=207.8 base_scale(r=1)=2.794
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+{'label': 'baseline', 'cond': 'ggb', 'ratio': 0.0, 'scale': 0.0, 'mean_coffee': 0.029, 'frac_over_0.5': 0.0}
+{'label': 'ggb_r0.2', 'cond': 'ggb', 'ratio': 0.2, 'scale': 0.5588, 'mean_coffee': 0.068, 'frac_over_0.5': 0.062}
+{'label': 'random_r0.2', 'cond': 'random', 'ratio': 0.2, 'scale': 0.5588, 'mean_coffee': 0.068, 'frac_over_0.5': 0.062}
+{'label': 'ggb_r0.3', 'cond': 'ggb', 'ratio': 0.3, 'scale': 0.8382, 'mean_coffee': 0.112, 'frac_over_0.5': 0.062}
+{'label': 'random_r0.3', 'cond': 'random', 'ratio': 0.3, 'scale': 0.8382, 'mean_coffee': 0.084, 'frac_over_0.5': 0.062}
+{'label': 'ggb_r0.45', 'cond': 'ggb', 'ratio': 0.45, 'scale': 1.2573, 'mean_coffee': 0.187, 'frac_over_0.5': 0.188}
+{'label': 'random_r0.45', 'cond': 'random', 'ratio': 0.45, 'scale': 1.2573, 'mean_coffee': 0.048, 'frac_over_0.5': 0.0}
+{'label': 'ggb_r0.6', 'cond': 'ggb', 'ratio': 0.6, 'scale': 1.6764, 'mean_coffee': 0.068, 'frac_over_0.5': 0.0}
+{'label': 'random_r0.6', 'cond': 'random', 'ratio': 0.6, 'scale': 1.6764, 'mean_coffee': 0.102, 'frac_over_0.5': 0.0}
+
+== summary ==
+        baseline  mean=0.029  frac>0.5=0.000
+        ggb_r0.2  mean=0.068  frac>0.5=0.062
+     random_r0.2  mean=0.068  frac>0.5=0.062
+        ggb_r0.3  mean=0.112  frac>0.5=0.062
+     random_r0.3  mean=0.084  frac>0.5=0.062
+       ggb_r0.45  mean=0.187  frac>0.5=0.188
+    random_r0.45  mean=0.048  frac>0.5=0.000
+        ggb_r0.6  mean=0.068  frac>0.5=0.000
+     random_r0.6  mean=0.102  frac>0.5=0.000
+
+total 1006s

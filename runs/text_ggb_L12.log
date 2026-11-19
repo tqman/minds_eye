@@ -1,0 +1,25 @@
+/home/quark/miniconda3/lib/python3.12/site-packages/transformers/models/auto/image_processing_auto.py:640: FutureWarning: The image_processor_class argument is deprecated and will be removed in v4.42. Please use `slow_image_processor_class`, or `fast_image_processor_class` instead
+  warnings.warn(
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+Python version is above 3.10, patching the collections module.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.64s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.87s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.99s/it]
+layer 12: dir_norm=74.4 resid_norm=207.8
+{'label': 'baseline', 'cond': 'ggb', 'ratio': 0.0, 'scale': 0.0, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 62.9}
+{'label': 'ggb_r0.25', 'cond': 'ggb', 'ratio': 0.25, 'scale': 0.6985, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 62.2}
+{'label': 'random_r0.25', 'cond': 'random', 'ratio': 0.25, 'scale': 0.6985, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 70.9}
+{'label': 'ggb_r0.4', 'cond': 'ggb', 'ratio': 0.4, 'scale': 1.1176, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 64.1}
+{'label': 'random_r0.4', 'cond': 'random', 'ratio': 0.4, 'scale': 1.1176, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 68.8}
+{'label': 'ggb_r0.6', 'cond': 'ggb', 'ratio': 0.6, 'scale': 1.6764, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 72.4}
+{'label': 'random_r0.6', 'cond': 'random', 'ratio': 0.6, 'scale': 1.6764, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 65.1}
+
+== summary ==
+        baseline  frac_any=0.000  hits/100w=0.00  words=62.9
+       ggb_r0.25  frac_any=0.000  hits/100w=0.00  words=62.2
+    random_r0.25  frac_any=0.000  hits/100w=0.00  words=70.9
+        ggb_r0.4  frac_any=0.000  hits/100w=0.00  words=64.1
+     random_r0.4  frac_any=0.000  hits/100w=0.00  words=68.8
+        ggb_r0.6  frac_any=0.000  hits/100w=0.00  words=72.4
+     random_r0.6  frac_any=0.000  hits/100w=0.00  words=65.1
+
+total 125s

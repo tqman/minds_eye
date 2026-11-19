@@ -1,0 +1,905 @@
+{
+  "layer": 12,
+  "concepts": [
+    "coffee",
+    "ggb",
+    "circle"
+  ],
+  "ratios": [
+    0.6,
+    1.0
+  ],
+  "temp": 0.7,
+  "suppress_eos": true,
+  "resid_norm": 196.3419189453125,
+  "rows": [
+    {
+      "label": "control_drawstates",
+      "decode": "argmax",
+      "clip_coffee": 0.016,
+      "clip_ggb": 0.02,
+      "clip_circle": 0.057,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.0,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.0,
+          0.016,
+          0.002,
+          0.007,
+          0.0,
+          0.001,
+          0.0,
+          0.1
+        ],
+        "ggb": [
+          0.0,
+          0.0,
+          0.0,
+          0.004,
+          0.0,
+          0.006,
+          0.122,
+          0.027
+        ],
+        "circle": [
+          0.0,
+          0.021,
+          0.013,
+          0.282,
+          0.001,
+          0.0,
+          0.095,
+          0.041
+        ]
+      },
+      "cond": "draw_states",
+      "ratio": 0.0
+    },
+    {
+      "label": "control_drawstates",
+      "decode": "sampled",
+      "clip_coffee": 0.036,
+      "clip_ggb": 0.023,
+      "clip_circle": 0.07,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.0,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.0,
+          0.031,
+          0.003,
+          0.019,
+          0.0,
+          0.003,
+          0.0,
+          0.23
+        ],
+        "ggb": [
+          0.0,
+          0.0,
+          0.0,
+          0.003,
+          0.0,
+          0.011,
+          0.133,
+          0.036
+        ],
+        "circle": [
+          0.002,
+          0.031,
+          0.009,
+          0.342,
+          0.001,
+          0.001,
+          0.068,
+          0.106
+        ]
+      },
+      "cond": "draw_states",
+      "ratio": 0.0
+    },
+    {
+      "label": "baseline",
+      "decode": "argmax",
+      "clip_coffee": 0.157,
+      "clip_ggb": 0.113,
+      "clip_circle": 0.039,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.0,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.205,
+          0.115,
+          0.084,
+          0.289,
+          0.048,
+          0.022,
+          0.469,
+          0.026
+        ],
+        "ggb": [
+          0.14,
+          0.017,
+          0.222,
+          0.086,
+          0.048,
+          0.148,
+          0.13,
+          0.114
+        ],
+        "circle": [
+          0.008,
+          0.015,
+          0.008,
+          0.117,
+          0.003,
+          0.007,
+          0.142,
+          0.011
+        ]
+      },
+      "cond": "baseline",
+      "ratio": 0.0,
+      "scale": 0.0,
+      "mean_words": 447.0,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.12,
+      "text_kw_circle": 0.62
+    },
+    {
+      "label": "baseline",
+      "decode": "sampled",
+      "clip_coffee": 0.159,
+      "clip_ggb": 0.135,
+      "clip_circle": 0.038,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.0,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.389,
+          0.093,
+          0.041,
+          0.136,
+          0.189,
+          0.068,
+          0.335,
+          0.026
+        ],
+        "ggb": [
+          0.316,
+          0.036,
+          0.041,
+          0.222,
+          0.033,
+          0.29,
+          0.069,
+          0.069
+        ],
+        "circle": [
+          0.04,
+          0.012,
+          0.005,
+          0.027,
+          0.073,
+          0.014,
+          0.068,
+          0.063
+        ]
+      },
+      "cond": "baseline",
+      "ratio": 0.0,
+      "scale": 0.0,
+      "mean_words": 447.0,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.12,
+      "text_kw_circle": 0.62
+    },
+    {
+      "label": "coffee_r0.6",
+      "decode": "argmax",
+      "clip_coffee": 0.129,
+      "clip_ggb": 0.083,
+      "clip_circle": 0.092,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.0,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.356,
+          0.046,
+          0.038,
+          0.036,
+          0.114,
+          0.032,
+          0.398,
+          0.01
+        ],
+        "ggb": [
+          0.096,
+          0.027,
+          0.162,
+          0.118,
+          0.07,
+          0.12,
+          0.04,
+          0.034
+        ],
+        "circle": [
+          0.3,
+          0.023,
+          0.027,
+          0.228,
+          0.121,
+          0.008,
+          0.014,
+          0.013
+        ]
+      },
+      "cond": "coffee",
+      "ratio": 0.6,
+      "scale": 4.1513,
+      "mean_words": 481.2,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 0.25
+    },
+    {
+      "label": "coffee_r0.6",
+      "decode": "sampled",
+      "clip_coffee": 0.12,
+      "clip_ggb": 0.107,
+      "clip_circle": 0.03,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.0,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.368,
+          0.052,
+          0.07,
+          0.04,
+          0.085,
+          0.056,
+          0.278,
+          0.006
+        ],
+        "ggb": [
+          0.06,
+          0.012,
+          0.179,
+          0.135,
+          0.027,
+          0.319,
+          0.082,
+          0.042
+        ],
+        "circle": [
+          0.085,
+          0.012,
+          0.043,
+          0.008,
+          0.038,
+          0.016,
+          0.029,
+          0.008
+        ]
+      },
+      "cond": "coffee",
+      "ratio": 0.6,
+      "scale": 4.1513,
+      "mean_words": 481.2,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 0.25
+    },
+    {
+      "label": "coffee_r1.0",
+      "decode": "argmax",
+      "clip_coffee": 0.206,
+      "clip_ggb": 0.233,
+      "clip_circle": 0.046,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.25,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.269,
+          0.127,
+          0.241,
+          0.171,
+          0.329,
+          0.213,
+          0.163,
+          0.131
+        ],
+        "ggb": [
+          0.594,
+          0.043,
+          0.065,
+          0.103,
+          0.089,
+          0.649,
+          0.257,
+          0.063
+        ],
+        "circle": [
+          0.085,
+          0.018,
+          0.05,
+          0.068,
+          0.071,
+          0.018,
+          0.03,
+          0.026
+        ]
+      },
+      "cond": "coffee",
+      "ratio": 1.0,
+      "scale": 6.9188,
+      "mean_words": 429.1,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 25.75,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 0.25
+    },
+    {
+      "label": "coffee_r1.0",
+      "decode": "sampled",
+      "clip_coffee": 0.31,
+      "clip_ggb": 0.108,
+      "clip_circle": 0.112,
+      "frac_coffee>0.5": 0.125,
+      "frac_ggb>0.5": 0.0,
+      "frac_circle>0.5": 0.125,
+      "per_image": {
+        "coffee": [
+          0.259,
+          0.078,
+          0.247,
+          0.346,
+          0.275,
+          0.899,
+          0.257,
+          0.118
+        ],
+        "ggb": [
+          0.244,
+          0.026,
+          0.067,
+          0.13,
+          0.015,
+          0.159,
+          0.017,
+          0.207
+        ],
+        "circle": [
+          0.04,
+          0.021,
+          0.09,
+          0.05,
+          0.051,
+          0.543,
+          0.017,
+          0.081
+        ]
+      },
+      "cond": "coffee",
+      "ratio": 1.0,
+      "scale": 6.9188,
+      "mean_words": 429.1,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 25.75,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 0.25
+    },
+    {
+      "label": "ggb_r0.6",
+      "decode": "argmax",
+      "clip_coffee": 0.124,
+      "clip_ggb": 0.116,
+      "clip_circle": 0.072,
+      "frac_coffee>0.5": 0.125,
+      "frac_ggb>0.5": 0.0,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.243,
+          0.009,
+          0.01,
+          0.122,
+          0.501,
+          0.057,
+          0.04,
+          0.011
+        ],
+        "ggb": [
+          0.101,
+          0.369,
+          0.076,
+          0.192,
+          0.013,
+          0.108,
+          0.032,
+          0.041
+        ],
+        "circle": [
+          0.021,
+          0.015,
+          0.002,
+          0.435,
+          0.063,
+          0.015,
+          0.009,
+          0.015
+        ]
+      },
+      "cond": "ggb",
+      "ratio": 0.6,
+      "scale": 1.5841,
+      "mean_words": 462.6,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 0.12
+    },
+    {
+      "label": "ggb_r0.6",
+      "decode": "sampled",
+      "clip_coffee": 0.104,
+      "clip_ggb": 0.081,
+      "clip_circle": 0.072,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.0,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.051,
+          0.018,
+          0.03,
+          0.394,
+          0.202,
+          0.036,
+          0.085,
+          0.014
+        ],
+        "ggb": [
+          0.058,
+          0.078,
+          0.085,
+          0.046,
+          0.018,
+          0.029,
+          0.226,
+          0.108
+        ],
+        "circle": [
+          0.025,
+          0.005,
+          0.003,
+          0.226,
+          0.214,
+          0.02,
+          0.079,
+          0.008
+        ]
+      },
+      "cond": "ggb",
+      "ratio": 0.6,
+      "scale": 1.5841,
+      "mean_words": 462.6,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 0.12
+    },
+    {
+      "label": "ggb_r1.0",
+      "decode": "argmax",
+      "clip_coffee": 0.077,
+      "clip_ggb": 0.402,
+      "clip_circle": 0.155,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.25,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.064,
+          0.045,
+          0.049,
+          0.06,
+          0.178,
+          0.031,
+          0.013,
+          0.175
+        ],
+        "ggb": [
+          0.197,
+          0.085,
+          0.208,
+          0.44,
+          0.234,
+          0.371,
+          0.975,
+          0.706
+        ],
+        "circle": [
+          0.017,
+          0.138,
+          0.106,
+          0.1,
+          0.122,
+          0.5,
+          0.082,
+          0.172
+        ]
+      },
+      "cond": "ggb",
+      "ratio": 1.0,
+      "scale": 2.6402,
+      "mean_words": 386.2,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.12,
+      "text_kw_circle": 0.12
+    },
+    {
+      "label": "ggb_r1.0",
+      "decode": "sampled",
+      "clip_coffee": 0.115,
+      "clip_ggb": 0.213,
+      "clip_circle": 0.109,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.125,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.054,
+          0.02,
+          0.063,
+          0.32,
+          0.261,
+          0.065,
+          0.011,
+          0.123
+        ],
+        "ggb": [
+          0.155,
+          0.08,
+          0.153,
+          0.09,
+          0.034,
+          0.351,
+          0.505,
+          0.336
+        ],
+        "circle": [
+          0.074,
+          0.109,
+          0.16,
+          0.046,
+          0.041,
+          0.271,
+          0.048,
+          0.124
+        ]
+      },
+      "cond": "ggb",
+      "ratio": 1.0,
+      "scale": 2.6402,
+      "mean_words": 386.2,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.12,
+      "text_kw_circle": 0.12
+    },
+    {
+      "label": "circle_r0.6",
+      "decode": "argmax",
+      "clip_coffee": 0.142,
+      "clip_ggb": 0.277,
+      "clip_circle": 0.121,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.125,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.461,
+          0.127,
+          0.02,
+          0.252,
+          0.032,
+          0.117,
+          0.109,
+          0.017
+        ],
+        "ggb": [
+          0.616,
+          0.273,
+          0.111,
+          0.484,
+          0.084,
+          0.278,
+          0.125,
+          0.248
+        ],
+        "circle": [
+          0.321,
+          0.094,
+          0.006,
+          0.282,
+          0.012,
+          0.227,
+          0.008,
+          0.021
+        ]
+      },
+      "cond": "circle",
+      "ratio": 0.6,
+      "scale": 2.3957,
+      "mean_words": 470.9,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 6.88
+    },
+    {
+      "label": "circle_r0.6",
+      "decode": "sampled",
+      "clip_coffee": 0.091,
+      "clip_ggb": 0.247,
+      "clip_circle": 0.123,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.0,
+      "frac_circle>0.5": 0.125,
+      "per_image": {
+        "coffee": [
+          0.302,
+          0.05,
+          0.042,
+          0.043,
+          0.034,
+          0.058,
+          0.16,
+          0.038
+        ],
+        "ggb": [
+          0.334,
+          0.182,
+          0.344,
+          0.312,
+          0.323,
+          0.111,
+          0.253,
+          0.118
+        ],
+        "circle": [
+          0.188,
+          0.05,
+          0.006,
+          0.517,
+          0.077,
+          0.087,
+          0.024,
+          0.037
+        ]
+      },
+      "cond": "circle",
+      "ratio": 0.6,
+      "scale": 2.3957,
+      "mean_words": 470.9,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 6.88
+    },
+    {
+      "label": "circle_r1.0",
+      "decode": "argmax",
+      "clip_coffee": 0.152,
+      "clip_ggb": 0.266,
+      "clip_circle": 0.024,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.125,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.028,
+          0.247,
+          0.342,
+          0.143,
+          0.065,
+          0.07,
+          0.04,
+          0.284
+        ],
+        "ggb": [
+          0.043,
+          0.282,
+          0.393,
+          0.359,
+          0.16,
+          0.063,
+          0.045,
+          0.784
+        ],
+        "circle": [
+          0.01,
+          0.006,
+          0.072,
+          0.019,
+          0.017,
+          0.021,
+          0.004,
+          0.043
+        ]
+      },
+      "cond": "circle",
+      "ratio": 1.0,
+      "scale": 3.9929,
+      "mean_words": 386.5,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 1.38
+    },
+    {
+      "label": "circle_r1.0",
+      "decode": "sampled",
+      "clip_coffee": 0.158,
+      "clip_ggb": 0.383,
+      "clip_circle": 0.037,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.375,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.079,
+          0.2,
+          0.123,
+          0.284,
+          0.095,
+          0.072,
+          0.015,
+          0.397
+        ],
+        "ggb": [
+          0.209,
+          0.56,
+          0.227,
+          0.291,
+          0.54,
+          0.178,
+          0.068,
+          0.99
+        ],
+        "circle": [
+          0.056,
+          0.036,
+          0.041,
+          0.033,
+          0.012,
+          0.052,
+          0.036,
+          0.03
+        ]
+      },
+      "cond": "circle",
+      "ratio": 1.0,
+      "scale": 3.9929,
+      "mean_words": 386.5,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 1.38
+    },
+    {
+      "label": "random_r1.0",
+      "decode": "argmax",
+      "clip_coffee": 0.094,
+      "clip_ggb": 0.097,
+      "clip_circle": 0.061,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.0,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.097,
+          0.037,
+          0.066,
+          0.067,
+          0.021,
+          0.054,
+          0.405,
+          0.008
+        ],
+        "ggb": [
+          0.08,
+          0.132,
+          0.015,
+          0.223,
+          0.099,
+          0.038,
+          0.099,
+          0.091
+        ],
+        "circle": [
+          0.047,
+          0.024,
+          0.148,
+          0.085,
+          0.012,
+          0.075,
+          0.069,
+          0.027
+        ]
+      },
+      "cond": "random",
+      "ratio": 1.0,
+      "scale": 6.9188,
+      "mean_words": 520.6,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 0.0
+    },
+    {
+      "label": "random_r1.0",
+      "decode": "sampled",
+      "clip_coffee": 0.024,
+      "clip_ggb": 0.122,
+      "clip_circle": 0.088,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.125,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.049,
+          0.007,
+          0.018,
+          0.019,
+          0.028,
+          0.026,
+          0.007,
+          0.038
+        ],
+        "ggb": [
+          0.502,
+          0.083,
+          0.136,
+          0.029,
+          0.059,
+          0.048,
+          0.026,
+          0.096
+        ],
+        "circle": [
+          0.243,
+          0.029,
+          0.08,
+          0.052,
+          0.068,
+          0.112,
+          0.027,
+          0.097
+        ]
+      },
+      "cond": "random",
+      "ratio": 1.0,
+      "scale": 6.9188,
+      "mean_words": 520.6,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 0.0
+    }
+  ]
+}

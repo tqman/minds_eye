@@ -1,0 +1,64 @@
+{
+  "concept": "coffee",
+  "layer": 12,
+  "dir_norm": 28.378026962280273,
+  "resid_norm": 188.38365173339844,
+  "rows": [
+    {
+      "label": "baseline",
+      "cond": "coffee",
+      "ratio": 0.0,
+      "scale": 0.0,
+      "mean_coffee": 0.024,
+      "frac_over_0.5": 0.0
+    },
+    {
+      "label": "coffee_r0.4",
+      "cond": "coffee",
+      "ratio": 0.4,
+      "scale": 2.6553,
+      "mean_coffee": 0.173,
+      "frac_over_0.5": 0.188
+    },
+    {
+      "label": "random_r0.4",
+      "cond": "random",
+      "ratio": 0.4,
+      "scale": 2.6553,
+      "mean_coffee": 0.075,
+      "frac_over_0.5": 0.0
+    },
+    {
+      "label": "coffee_r0.6",
+      "cond": "coffee",
+      "ratio": 0.6,
+      "scale": 3.983,
+      "mean_coffee": 0.292,
+      "frac_over_0.5": 0.188
+    },
+    {
+      "label": "random_r0.6",
+      "cond": "random",
+      "ratio": 0.6,
+      "scale": 3.983,
+      "mean_coffee": 0.074,
+      "frac_over_0.5": 0.0
+    },
+    {
+      "label": "coffee_r0.9",
+      "cond": "coffee",
+      "ratio": 0.9,
+      "scale": 5.9745,
+      "mean_coffee": 0.347,
+      "frac_over_0.5": 0.312
+    },
+    {
+      "label": "random_r0.9",
+      "cond": "random",
+      "ratio": 0.9,
+      "scale": 5.9745,
+      "mean_coffee": 0.066,
+      "frac_over_0.5": 0.0
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "layer": 12,
+  "concepts": [
+    "coffee"
+  ],
+  "ratios": [],
+  "temp": 0.7,
+  "suppress_eos": true,
+  "resid_norm": 188.38365173339844,
+  "rows": [
+    {
+      "label": "random_s1_r1.0",
+      "decode": "argmax",
+      "clip_coffee": 0.252,
+      "clip_ggb": 0.194,
+      "clip_circle": 0.12,
+      "frac_coffee>0.5": 0.125,
+      "frac_ggb>0.5": 0.125,
+      "frac_circle>0.5": 0.125,
+      "per_image": {
+        "coffee": [
+          0.044,
+          0.09,
+          0.442,
+          0.389,
+          0.049,
+          0.229,
+          0.747,
+          0.029
+        ],
+        "ggb": [
+          0.162,
+          0.21,
+          0.205,
+          0.695,
+          0.027,
+          0.194,
+          0.042,
+          0.019
+        ],
+        "circle": [
+          0.011,
+          0.001,
+          0.015,
+          0.132,
+          0.006,
+          0.178,
+          0.603,
+          0.012
+        ]
+      },
+      "cond": "random_s1",
+      "ratio": 1.0,
+      "scale": 6.6384,
+      "mean_words": 474.0,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 0.62
+    },
+    {
+      "label": "random_s1_r1.0",
+      "decode": "sampled",
+      "clip_coffee": 0.306,
+      "clip_ggb": 0.125,
+      "clip_circle": 0.106,
+      "frac_coffee>0.5": 0.125,
+      "frac_ggb>0.5": 0.0,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.302,
+          0.249,
+          0.443,
+          0.343,
+          0.106,
+          0.256,
+          0.552,
+          0.192
+        ],
+        "ggb": [
+          0.036,
+          0.049,
+          0.239,
+          0.373,
+          0.047,
+          0.041,
+          0.184,
+          0.027
+        ],
+        "circle": [
+          0.229,
+          0.011,
+          0.239,
+          0.055,
+          0.007,
+          0.028,
+          0.27,
+          0.006
+        ]
+      },
+      "cond": "random_s1",
+      "ratio": 1.0,
+      "scale": 6.6384,
+      "mean_words": 474.0,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 0.62
+    },
+    {
+      "label": "random_s2_r1.0",
+      "decode": "argmax",
+      "clip_coffee": 0.134,
+      "clip_ggb": 0.037,
+      "clip_circle": 0.016,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.0,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.46,
+          0.014,
+          0.134,
+          0.101,
+          0.007,
+          0.108,
+          0.173,
+          0.076
+        ],
+        "ggb": [
+          0.018,
+          0.033,
+          0.019,
+          0.019,
+          0.05,
+          0.04,
+          0.059,
+          0.055
+        ],
+        "circle": [
+          0.014,
+          0.026,
+          0.026,
+          0.033,
+          0.003,
+          0.013,
+          0.005,
+          0.011
+        ]
+      },
+      "cond": "random_s2",
+      "ratio": 1.0,
+      "scale": 6.6384,
+      "mean_words": 496.2,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 0.12
+    },
+    {
+      "label": "random_s2_r1.0",
+      "decode": "sampled",
+      "clip_coffee": 0.054,
+      "clip_ggb": 0.09,
+      "clip_circle": 0.025,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.0,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.132,
+          0.008,
+          0.166,
+          0.025,
+          0.024,
+          0.034,
+          0.029,
+          0.012
+        ],
+        "ggb": [
+          0.133,
+          0.046,
+          0.03,
+          0.239,
+          0.226,
+          0.018,
+          0.007,
+          0.023
+        ],
+        "circle": [
+          0.071,
+          0.003,
+          0.021,
+          0.021,
+          0.036,
+          0.021,
+          0.003,
+          0.02
+        ]
+      },
+      "cond": "random_s2",
+      "ratio": 1.0,
+      "scale": 6.6384,
+      "mean_words": 496.2,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 0.12
+    },
+    {
+      "label": "random_s3_r1.0",
+      "decode": "argmax",
+      "clip_coffee": 0.32,
+      "clip_ggb": 0.46,
+      "clip_circle": 0.058,
+      "frac_coffee>0.5": 0.125,
+      "frac_ggb>0.5": 0.375,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.103,
+          0.526,
+          0.494,
+          0.194,
+          0.476,
+          0.105,
+          0.228,
+          0.435
+        ],
+        "ggb": [
+          0.37,
+          0.484,
+          0.275,
+          0.31,
+          0.746,
+          0.512,
+          0.472,
+          0.51
+        ],
+        "circle": [
+          0.087,
+          0.077,
+          0.067,
+          0.089,
+          0.052,
+          0.048,
+          0.005,
+          0.041
+        ]
+      },
+      "cond": "random_s3",
+      "ratio": 1.0,
+      "scale": 6.6384,
+      "mean_words": 431.6,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 0.0
+    },
+    {
+      "label": "random_s3_r1.0",
+      "decode": "sampled",
+      "clip_coffee": 0.265,
+      "clip_ggb": 0.413,
+      "clip_circle": 0.165,
+      "frac_coffee>0.5": 0.0,
+      "frac_ggb>0.5": 0.25,
+      "frac_circle>0.5": 0.0,
+      "per_image": {
+        "coffee": [
+          0.298,
+          0.307,
+          0.254,
+          0.272,
+          0.306,
+          0.21,
+          0.415,
+          0.06
+        ],
+        "ggb": [
+          0.021,
+          0.485,
+          0.218,
+          0.164,
+          0.374,
+          0.809,
+          0.797,
+          0.435
+        ],
+        "circle": [
+          0.14,
+          0.213,
+          0.078,
+          0.469,
+          0.123,
+          0.27,
+          0.009,
+          0.016
+        ]
+      },
+      "cond": "random_s3",
+      "ratio": 1.0,
+      "scale": 6.6384,
+      "mean_words": 431.6,
+      "eos_mean": -1.0,
+      "text_kw_coffee": 0.0,
+      "text_kw_ggb": 0.0,
+      "text_kw_circle": 0.0
+    }
+  ]
+}

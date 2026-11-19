@@ -1,0 +1,15 @@
+/home/quark/miniconda3/lib/python3.12/site-packages/transformers/models/auto/image_processing_auto.py:640: FutureWarning: The image_processor_class argument is deprecated and will be removed in v4.42. Please use `slow_image_processor_class`, or `fast_image_processor_class` instead
+  warnings.warn(
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+Python version is above 3.10, patching the collections module.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.26s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.68s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.76s/it]
+    circle_r0.45 UP: ' antip', 'ince', ' compiler', 'stre', ' complement', ' Cumberland', '其所', ' reviewers', ' Guy', ' SAT', ' automatic', ' -('
+     coffee_r0.3 UP: ' Origins', 'Bible', 'RR', 'Anth', ' Anth', ' SSD', ' envers', 'onym', 'yo', ' prestige', ' responder', '拱'
+    coffee_r0.45 UP: '<end_of_image>', ' prestige', 'Bible', ' anteced', 'RR', ' Bernardo', 'RK', ' credential', 'stig', ' -(', 'ESP', 'yo'
+     ggb_po_r1.0 UP: ' mainland', '大陆', '内地', ' nonlocal', ' western', '西部', '庄', ' Pepper', 'Western', 'LOCAL', 'western', 'Mid'
+     ggb_po_r2.0 UP: '<end_of_image>', 'logo', ' SG', '旗舰', '\\#', ' commission', ' deep', 'Mid', 'FE', 'fe', '多位', ' nonlocal'
+        ggb_r0.3 UP: 'emir', ' $?', 'Cu', 'pong', '钩', ' equatorial', ' nonlocal', 'lada', 'Mid', ' \\%', ' Ship', 'pon'
+       ggb_r0.45 UP: '<end_of_image>', 'emir', 'quo', '绎', 'pend', 'Clone', 'bre', ' Clone', 'oop', '玺', 'oom', 'ogo'
+    random_r0.45 UP: 'st', 'le', '率', 'les', '效果', ' feelings', ' Bob', '力度', 'll', ' guy', 'person', 'li'
+ random_s2_r0.45 UP: ' bend', 'bod', ' reviewers', ' redundancy', ' bends', ' Kum', ' discharged', 'uter', ' complement', ' Dest', '(', ' replacement'

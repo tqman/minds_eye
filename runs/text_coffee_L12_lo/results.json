@@ -1,0 +1,72 @@
+{
+  "concept": "coffee",
+  "layer": 12,
+  "prompt_only": false,
+  "dir_norm": 28.378026962280273,
+  "resid_norm": 188.38365173339844,
+  "rows": [
+    {
+      "label": "baseline",
+      "cond": "coffee",
+      "ratio": 0.0,
+      "scale": 0.0,
+      "frac_any": 0.25,
+      "hits_per100": 0.44,
+      "mean_words": 62.9
+    },
+    {
+      "label": "coffee_r0.25",
+      "cond": "coffee",
+      "ratio": 0.25,
+      "scale": 1.6596,
+      "frac_any": 0.125,
+      "hits_per100": 0.26,
+      "mean_words": 56.6
+    },
+    {
+      "label": "random_r0.25",
+      "cond": "random",
+      "ratio": 0.25,
+      "scale": 1.6596,
+      "frac_any": 0.0,
+      "hits_per100": 0.0,
+      "mean_words": 72.6
+    },
+    {
+      "label": "coffee_r0.4",
+      "cond": "coffee",
+      "ratio": 0.4,
+      "scale": 2.6553,
+      "frac_any": 0.25,
+      "hits_per100": 0.43,
+      "mean_words": 54.1
+    },
+    {
+      "label": "random_r0.4",
+      "cond": "random",
+      "ratio": 0.4,
+      "scale": 2.6553,
+      "frac_any": 0.0,
+      "hits_per100": 0.0,
+      "mean_words": 67.4
+    },
+    {
+      "label": "coffee_r0.6",
+      "cond": "coffee",
+      "ratio": 0.6,
+      "scale": 3.983,
+      "frac_any": 0.25,
+      "hits_per100": 1.3,
+      "mean_words": 53.2
+    },
+    {
+      "label": "random_r0.6",
+      "cond": "random",
+      "ratio": 0.6,
+      "scale": 3.983,
+      "frac_any": 0.0,
+      "hits_per100": 0.0,
+      "mean_words": 68.4
+    }
+  ]
+}

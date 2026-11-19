@@ -1,0 +1,79 @@
+{
+  "concept": "circle",
+  "layer": 18,
+  "prompt_only": false,
+  "dir_norm": 84.94422912597656,
+  "resid_norm": 340.9546813964844,
+  "rows": [
+    {
+      "label": "baseline",
+      "cond": "circle",
+      "ratio": 0.0,
+      "scale": 0.0,
+      "mean_coffee": 0.083,
+      "frac_over_0.5": 0.0,
+      "hough_mean": 0.25,
+      "hough_frac_ge1": 0.125
+    },
+    {
+      "label": "circle_r0.25",
+      "cond": "circle",
+      "ratio": 0.25,
+      "scale": 1.0035,
+      "mean_coffee": 0.106,
+      "frac_over_0.5": 0.0,
+      "hough_mean": 0.25,
+      "hough_frac_ge1": 0.125
+    },
+    {
+      "label": "random_r0.25",
+      "cond": "random",
+      "ratio": 0.25,
+      "scale": 1.0035,
+      "mean_coffee": 0.094,
+      "frac_over_0.5": 0.062,
+      "hough_mean": 0.19,
+      "hough_frac_ge1": 0.125
+    },
+    {
+      "label": "circle_r0.4",
+      "cond": "circle",
+      "ratio": 0.4,
+      "scale": 1.6055,
+      "mean_coffee": 0.135,
+      "frac_over_0.5": 0.0,
+      "hough_mean": 0.19,
+      "hough_frac_ge1": 0.125
+    },
+    {
+      "label": "random_r0.4",
+      "cond": "random",
+      "ratio": 0.4,
+      "scale": 1.6055,
+      "mean_coffee": 0.072,
+      "frac_over_0.5": 0.0,
+      "hough_mean": 0.12,
+      "hough_frac_ge1": 0.062
+    },
+    {
+      "label": "circle_r0.6",
+      "cond": "circle",
+      "ratio": 0.6,
+      "scale": 2.4083,
+      "mean_coffee": 0.091,
+      "frac_over_0.5": 0.062,
+      "hough_mean": 0.12,
+      "hough_frac_ge1": 0.062
+    },
+    {
+      "label": "random_r0.6",
+      "cond": "random",
+      "ratio": 0.6,
+      "scale": 2.4083,
+      "mean_coffee": 0.064,
+      "frac_over_0.5": 0.0,
+      "hough_mean": 0.0,
+      "hough_frac_ge1": 0.0
+    }
+  ]
+}

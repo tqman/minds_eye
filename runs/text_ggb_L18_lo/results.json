@@ -1,0 +1,72 @@
+{
+  "concept": "ggb",
+  "layer": 18,
+  "prompt_only": false,
+  "dir_norm": 191.81101989746094,
+  "resid_norm": 386.31011962890625,
+  "rows": [
+    {
+      "label": "baseline",
+      "cond": "ggb",
+      "ratio": 0.0,
+      "scale": 0.0,
+      "frac_any": 0.0,
+      "hits_per100": 0.0,
+      "mean_words": 62.9
+    },
+    {
+      "label": "ggb_r0.25",
+      "cond": "ggb",
+      "ratio": 0.25,
+      "scale": 0.5035,
+      "frac_any": 0.0,
+      "hits_per100": 0.0,
+      "mean_words": 57.8
+    },
+    {
+      "label": "random_r0.25",
+      "cond": "random",
+      "ratio": 0.25,
+      "scale": 0.5035,
+      "frac_any": 0.0,
+      "hits_per100": 0.0,
+      "mean_words": 56.4
+    },
+    {
+      "label": "ggb_r0.4",
+      "cond": "ggb",
+      "ratio": 0.4,
+      "scale": 0.8056,
+      "frac_any": 0.0,
+      "hits_per100": 0.0,
+      "mean_words": 60.6
+    },
+    {
+      "label": "random_r0.4",
+      "cond": "random",
+      "ratio": 0.4,
+      "scale": 0.8056,
+      "frac_any": 0.0,
+      "hits_per100": 0.0,
+      "mean_words": 61.9
+    },
+    {
+      "label": "ggb_r0.6",
+      "cond": "ggb",
+      "ratio": 0.6,
+      "scale": 1.2084,
+      "frac_any": 0.0,
+      "hits_per100": 0.0,
+      "mean_words": 56.4
+    },
+    {
+      "label": "random_r0.6",
+      "cond": "random",
+      "ratio": 0.6,
+      "scale": 1.2084,
+      "frac_any": 0.0,
+      "hits_per100": 0.0,
+      "mean_words": 54.6
+    }
+  ]
+}

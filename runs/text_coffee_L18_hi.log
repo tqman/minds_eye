@@ -1,0 +1,29 @@
+/home/quark/miniconda3/lib/python3.12/site-packages/transformers/models/auto/image_processing_auto.py:640: FutureWarning: The image_processor_class argument is deprecated and will be removed in v4.42. Please use `slow_image_processor_class`, or `fast_image_processor_class` instead
+  warnings.warn(
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+Python version is above 3.10, patching the collections module.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.90s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.10s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.22s/it]
+layer 18: dir_norm=56.9 resid_norm=339.7
+{'label': 'baseline', 'cond': 'coffee', 'ratio': 0.0, 'scale': 0.0, 'frac_any': 0.25, 'hits_per100': 0.44, 'mean_words': 62.9}
+{'label': 'coffee_r1.0', 'cond': 'coffee', 'ratio': 1.0, 'scale': 5.9699, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 70.8}
+{'label': 'random_r1.0', 'cond': 'random', 'ratio': 1.0, 'scale': 5.9699, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 60.2}
+{'label': 'coffee_r1.5', 'cond': 'coffee', 'ratio': 1.5, 'scale': 8.9548, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 65.8}
+{'label': 'random_r1.5', 'cond': 'random', 'ratio': 1.5, 'scale': 8.9548, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 54.8}
+{'label': 'coffee_r2.0', 'cond': 'coffee', 'ratio': 2.0, 'scale': 11.9397, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 64.0}
+{'label': 'random_r2.0', 'cond': 'random', 'ratio': 2.0, 'scale': 11.9397, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 26.1}
+{'label': 'coffee_r3.0', 'cond': 'coffee', 'ratio': 3.0, 'scale': 17.9096, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 65.8}
+{'label': 'random_r3.0', 'cond': 'random', 'ratio': 3.0, 'scale': 17.9096, 'frac_any': 0.125, 'hits_per100': 6.25, 'mean_words': 13.1}
+
+== summary ==
+        baseline  frac_any=0.250  hits/100w=0.44  words=62.9
+     coffee_r1.0  frac_any=0.000  hits/100w=0.00  words=70.8
+     random_r1.0  frac_any=0.000  hits/100w=0.00  words=60.2
+     coffee_r1.5  frac_any=0.000  hits/100w=0.00  words=65.8
+     random_r1.5  frac_any=0.000  hits/100w=0.00  words=54.8
+     coffee_r2.0  frac_any=0.000  hits/100w=0.00  words=64.0
+     random_r2.0  frac_any=0.000  hits/100w=0.00  words=26.1
+     coffee_r3.0  frac_any=0.000  hits/100w=0.00  words=65.8
+     random_r3.0  frac_any=0.125  hits/100w=6.25  words=13.1
+
+total 167s

@@ -1,0 +1,55 @@
+/home/quark/miniconda3/lib/python3.12/site-packages/transformers/models/auto/image_processing_auto.py:640: FutureWarning: The image_processor_class argument is deprecated and will be removed in v4.42. Please use `slow_image_processor_class`, or `fast_image_processor_class` instead
+  warnings.warn(
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+Python version is above 3.10, patching the collections module.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.09s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.54s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.63s/it]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+{'coffee': 36, 'ggb': 46, 'circle': 40}
+coffee: dir_norm=28.4 resid_norm=188.4
+ggb: dir_norm=74.4 resid_norm=207.8
+circle: dir_norm=49.2 resid_norm=196.3
+{'label': 'baseline', 'ratio': 0.0, 'prompt_only': False, 'scale': 0.0, 'clip_coffee': 0.035, 'clip_ggb': 0.057, 'clip_circle': 0.066, 'mass_coffee': 0.303, 'mass_ggb': 0.361, 'mass_circle': 0.269, 'argmax_kw_coffee': 0, 'argmax_kw_ggb': 0, 'argmax_kw_circle': 0, 'distinct_top1': 1}
+  top-15 tokens: [('<end_of_image>', 4608)]
+baseline done 105s
+{'label': 'ggb_r0.3', 'ratio': 0.3, 'prompt_only': False, 'scale': 0.7921, 'clip_coffee': 0.084, 'clip_ggb': 0.15, 'clip_circle': 0.079, 'mass_coffee': 0.285, 'mass_ggb': 0.354, 'mass_circle': 0.259, 'argmax_kw_coffee': 0, 'argmax_kw_ggb': 0, 'argmax_kw_circle': 0, 'distinct_top1': 1}
+  top-15 tokens: [('<end_of_image>', 4608)]
+ggb_r0.3 done 109s
+{'label': 'ggb_r0.45', 'ratio': 0.45, 'prompt_only': False, 'scale': 1.1881, 'clip_coffee': 0.045, 'clip_ggb': 0.118, 'clip_circle': 0.048, 'mass_coffee': 0.223, 'mass_ggb': 0.298, 'mass_circle': 0.215, 'argmax_kw_coffee': 0, 'argmax_kw_ggb': 0, 'argmax_kw_circle': 0, 'distinct_top1': 1}
+  top-15 tokens: [('<end_of_image>', 4608)]
+ggb_r0.45 done 115s
+{'label': 'ggb_po_r1.0', 'ratio': 1.0, 'prompt_only': True, 'scale': 2.6402, 'clip_coffee': 0.031, 'clip_ggb': 0.398, 'clip_circle': 0.063, 'mass_coffee': 0.302, 'mass_ggb': 0.371, 'mass_circle': 0.266, 'argmax_kw_coffee': 0, 'argmax_kw_ggb': 0, 'argmax_kw_circle': 0, 'distinct_top1': 2}
+  top-15 tokens: [('<end_of_image>', 4602), ('\n', 6)]
+ggb_po_r1.0 done 119s
+{'label': 'ggb_po_r2.0', 'ratio': 2.0, 'prompt_only': True, 'scale': 5.2803, 'clip_coffee': 0.031, 'clip_ggb': 0.726, 'clip_circle': 0.074, 'mass_coffee': 0.267, 'mass_ggb': 0.338, 'mass_circle': 0.24, 'argmax_kw_coffee': 0, 'argmax_kw_ggb': 0, 'argmax_kw_circle': 1, 'distinct_top1': 4}
+  top-15 tokens: [('<end_of_image>', 4600), ('\n', 6), (' Discover', 1), (' Lights', 1)]
+ggb_po_r2.0 done 117s
+{'label': 'coffee_r0.3', 'ratio': 0.3, 'prompt_only': False, 'scale': 2.0756, 'clip_coffee': 0.049, 'clip_ggb': 0.016, 'clip_circle': 0.175, 'mass_coffee': 0.301, 'mass_ggb': 0.351, 'mass_circle': 0.27, 'argmax_kw_coffee': 0, 'argmax_kw_ggb': 0, 'argmax_kw_circle': 0, 'distinct_top1': 1}
+  top-15 tokens: [('<end_of_image>', 4608)]
+coffee_r0.3 done 114s
+{'label': 'coffee_r0.45', 'ratio': 0.45, 'prompt_only': False, 'scale': 3.1135, 'clip_coffee': 0.242, 'clip_ggb': 0.166, 'clip_circle': 0.244, 'mass_coffee': 0.27, 'mass_ggb': 0.308, 'mass_circle': 0.248, 'argmax_kw_coffee': 0, 'argmax_kw_ggb': 0, 'argmax_kw_circle': 0, 'distinct_top1': 1}
+  top-15 tokens: [('<end_of_image>', 4608)]
+coffee_r0.45 done 116s
+{'label': 'circle_r0.45', 'ratio': 0.45, 'prompt_only': False, 'scale': 1.7968, 'clip_coffee': 0.105, 'clip_ggb': 0.105, 'clip_circle': 0.126, 'mass_coffee': 0.328, 'mass_ggb': 0.404, 'mass_circle': 0.343, 'argmax_kw_coffee': 0, 'argmax_kw_ggb': 0, 'argmax_kw_circle': 0, 'distinct_top1': 1}
+  top-15 tokens: [('<end_of_image>', 4608)]
+circle_r0.45 done 118s
+{'label': 'random_r0.45', 'ratio': 0.45, 'prompt_only': False, 'scale': 1.1881, 'clip_coffee': 0.065, 'clip_ggb': 0.07, 'clip_circle': 0.159, 'mass_coffee': 0.367, 'mass_ggb': 0.426, 'mass_circle': 0.301, 'argmax_kw_coffee': 0, 'argmax_kw_ggb': 0, 'argmax_kw_circle': 0, 'distinct_top1': 1}
+  top-15 tokens: [('<end_of_image>', 4608)]
+random_r0.45 done 117s
+{'label': 'random_s2_r0.45', 'ratio': 0.45, 'prompt_only': False, 'scale': 1.1881, 'clip_coffee': 0.052, 'clip_ggb': 0.034, 'clip_circle': 0.095, 'mass_coffee': 0.355, 'mass_ggb': 0.422, 'mass_circle': 0.317, 'argmax_kw_coffee': 0, 'argmax_kw_ggb': 0, 'argmax_kw_circle': 0, 'distinct_top1': 1}
+  top-15 tokens: [('<end_of_image>', 4608)]
+random_s2_r0.45 done 120s
+
+== summary ==
+          baseline  clip g/c/o=0.06/0.04/0.07  mass g/c/o=0.361/0.303/0.269  argmax_kw g/c/o=0/0/0
+          ggb_r0.3  clip g/c/o=0.15/0.08/0.08  mass g/c/o=0.354/0.285/0.259  argmax_kw g/c/o=0/0/0
+         ggb_r0.45  clip g/c/o=0.12/0.04/0.05  mass g/c/o=0.298/0.223/0.215  argmax_kw g/c/o=0/0/0
+       ggb_po_r1.0  clip g/c/o=0.40/0.03/0.06  mass g/c/o=0.371/0.302/0.266  argmax_kw g/c/o=0/0/0
+       ggb_po_r2.0  clip g/c/o=0.73/0.03/0.07  mass g/c/o=0.338/0.267/0.240  argmax_kw g/c/o=0/0/1
+       coffee_r0.3  clip g/c/o=0.02/0.05/0.17  mass g/c/o=0.351/0.301/0.270  argmax_kw g/c/o=0/0/0
+      coffee_r0.45  clip g/c/o=0.17/0.24/0.24  mass g/c/o=0.308/0.270/0.248  argmax_kw g/c/o=0/0/0
+      circle_r0.45  clip g/c/o=0.10/0.10/0.13  mass g/c/o=0.404/0.328/0.343  argmax_kw g/c/o=0/0/0
+      random_r0.45  clip g/c/o=0.07/0.07/0.16  mass g/c/o=0.426/0.367/0.301  argmax_kw g/c/o=0/0/0
+   random_s2_r0.45  clip g/c/o=0.03/0.05/0.10  mass g/c/o=0.422/0.355/0.317  argmax_kw g/c/o=0/0/0
+
+total 1173s

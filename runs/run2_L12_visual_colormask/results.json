@@ -1,0 +1,339 @@
+[
+  {
+    "essay": "ocean",
+    "n_color_pos": 41,
+    "color_tokens": [
+      "golden",
+      "glow",
+      "blue",
+      "rust",
+      "Reds",
+      "oranges",
+      "yellow",
+      "blues",
+      "greens",
+      "light",
+      "bright",
+      "dark",
+      "dark",
+      "blue",
+      "blue",
+      "fiery",
+      "glow",
+      "reds",
+      "oranges",
+      "golden",
+      "light",
+      "dark",
+      "dark"
+    ],
+    "words": 467,
+    "rgb_full": [
+      157.6,
+      196.1,
+      184.8
+    ],
+    "dist_from_nonvisual_full": 109.3,
+    "rgb_mask_color": [
+      152.8,
+      185.0,
+      185.0
+    ],
+    "dist_from_nonvisual_mask_color": 99.2,
+    "rgb_mask_rand": [
+      152.0,
+      186.8,
+      186.0
+    ],
+    "dist_from_nonvisual_mask_rand": 100.6,
+    "rgb_shift_color_vs_full": 12.1,
+    "rgb_shift_rand_vs_full": 10.9
+  },
+  {
+    "essay": "fire",
+    "n_color_pos": 36,
+    "color_tokens": [
+      "dark",
+      "red",
+      "blackened",
+      "orange",
+      "yellow",
+      "green",
+      "crimson",
+      "darkness",
+      "light",
+      "blackened",
+      "darkness",
+      "glow",
+      "green",
+      "crimson",
+      "red",
+      "blackened",
+      "orange",
+      "yellow"
+    ],
+    "words": 465,
+    "rgb_full": [
+      136.0,
+      121.5,
+      85.9
+    ],
+    "dist_from_nonvisual_full": 55.0,
+    "rgb_mask_color": [
+      122.4,
+      111.3,
+      81.4
+    ],
+    "dist_from_nonvisual_mask_color": 53.0,
+    "rgb_mask_rand": [
+      125.1,
+      116.2,
+      89.6
+    ],
+    "dist_from_nonvisual_mask_rand": 46.1,
+    "rgb_shift_color_vs_full": 17.6,
+    "rgb_shift_rand_vs_full": 12.7
+  },
+  {
+    "essay": "wheat",
+    "n_color_pos": 23,
+    "color_tokens": [
+      "golden",
+      "blue",
+      "green",
+      "amber",
+      "rustling",
+      "golden",
+      "golden",
+      "brown",
+      "rust",
+      "brown",
+      "golden",
+      "glow"
+    ],
+    "words": 482,
+    "rgb_full": [
+      134.1,
+      125.4,
+      89.1
+    ],
+    "dist_from_nonvisual_full": 51.8,
+    "rgb_mask_color": [
+      128.4,
+      120.5,
+      91.4
+    ],
+    "dist_from_nonvisual_mask_color": 46.2,
+    "rgb_mask_rand": [
+      128.6,
+      120.7,
+      89.4
+    ],
+    "dist_from_nonvisual_mask_rand": 48.1,
+    "rgb_shift_color_vs_full": 7.9,
+    "rgb_shift_rand_vs_full": 7.2
+  },
+  {
+    "essay": "ggb_fog",
+    "n_color_pos": 21,
+    "color_tokens": [
+      "Golden",
+      "Golden",
+      "Golden",
+      "reduced",
+      "bright",
+      "orange",
+      "red",
+      "reduced",
+      "Golden",
+      "bright",
+      "tangible"
+    ],
+    "words": 467,
+    "rgb_full": [
+      141.2,
+      169.5,
+      174.5
+    ],
+    "dist_from_nonvisual_full": 77.2,
+    "rgb_mask_color": [
+      131.4,
+      159.7,
+      168.6
+    ],
+    "dist_from_nonvisual_mask_color": 62.8,
+    "rgb_mask_rand": [
+      132.4,
+      158.6,
+      164.8
+    ],
+    "dist_from_nonvisual_mask_rand": 60.3,
+    "rgb_shift_color_vs_full": 15.1,
+    "rgb_shift_rand_vs_full": 17.0
+  },
+  {
+    "essay": "coffee",
+    "n_color_pos": 19,
+    "color_tokens": [
+      "black",
+      "dark",
+      "light",
+      "dark",
+      "chocolate",
+      "brighter",
+      "rustic",
+      "rust",
+      "dark",
+      "brown"
+    ],
+    "words": 451,
+    "rgb_full": [
+      135.6,
+      164.0,
+      147.5
+    ],
+    "dist_from_nonvisual_full": 58.7,
+    "rgb_mask_color": [
+      128.8,
+      157.2,
+      144.6
+    ],
+    "dist_from_nonvisual_mask_color": 49.0,
+    "rgb_mask_rand": [
+      129.8,
+      155.2,
+      139.5
+    ],
+    "dist_from_nonvisual_mask_rand": 46.7,
+    "rgb_shift_color_vs_full": 10.0,
+    "rgb_shift_rand_vs_full": 13.2
+  },
+  {
+    "essay": "snow",
+    "n_color_pos": 8,
+    "color_tokens": [
+      "white",
+      "blue",
+      "white",
+      "blue"
+    ],
+    "words": 478,
+    "rgb_full": [
+      150.2,
+      168.4,
+      165.0
+    ],
+    "dist_from_nonvisual_full": 76.4,
+    "rgb_mask_color": [
+      149.0,
+      165.3,
+      161.3
+    ],
+    "dist_from_nonvisual_mask_color": 72.0,
+    "rgb_mask_rand": [
+      149.1,
+      165.9,
+      161.7
+    ],
+    "dist_from_nonvisual_mask_rand": 72.6,
+    "rgb_shift_color_vs_full": 5.0,
+    "rgb_shift_rand_vs_full": 4.3
+  },
+  {
+    "essay": "lavender",
+    "n_color_pos": 45,
+    "color_tokens": [
+      "lavender",
+      "purple",
+      "bright",
+      "blue",
+      "lavender",
+      "lavender",
+      "blue",
+      "glow",
+      "lavender",
+      "purple",
+      "lavender",
+      "green",
+      "bright",
+      "white",
+      "black",
+      "lavender",
+      "lavender",
+      "rustic",
+      "bright",
+      "blue",
+      "lavender",
+      "lavender",
+      "golden",
+      "glow"
+    ],
+    "words": 481,
+    "rgb_full": [
+      95.9,
+      104.5,
+      98.4
+    ],
+    "dist_from_nonvisual_full": 36.4,
+    "rgb_mask_color": [
+      75.1,
+      92.4,
+      99.5
+    ],
+    "dist_from_nonvisual_mask_color": 50.2,
+    "rgb_mask_rand": [
+      81.8,
+      95.9,
+      98.8
+    ],
+    "dist_from_nonvisual_mask_rand": 45.3,
+    "rgb_shift_color_vs_full": 24.1,
+    "rgb_shift_rand_vs_full": 16.5
+  },
+  {
+    "essay": "desert",
+    "n_color_pos": 36,
+    "color_tokens": [
+      "golden",
+      "amber",
+      "glow",
+      "oranges",
+      "fiery",
+      "rust",
+      "oranges",
+      "pink",
+      "purple",
+      "fiery",
+      "orange",
+      "light",
+      "glow",
+      "orange",
+      "pink",
+      "purple",
+      "rust",
+      "glow",
+      "rust"
+    ],
+    "words": 479,
+    "rgb_full": [
+      136.6,
+      139.9,
+      105.1
+    ],
+    "dist_from_nonvisual_full": 47.1,
+    "rgb_mask_color": [
+      150.6,
+      125.3,
+      80.0
+    ],
+    "dist_from_nonvisual_mask_color": 68.9,
+    "rgb_mask_rand": [
+      159.2,
+      133.3,
+      83.0
+    ],
+    "dist_from_nonvisual_mask_rand": 74.2,
+    "rgb_shift_color_vs_full": 32.2,
+    "rgb_shift_rand_vs_full": 32.3
+  }
+]

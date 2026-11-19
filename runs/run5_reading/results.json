@@ -1,0 +1,321 @@
+{
+  "nonvis_mean_rgb": [
+    106,
+    116,
+    131
+  ],
+  "rows": [
+    {
+      "i": 0,
+      "topic": "ocean",
+      "words": 467,
+      "cos_gen_vs_saved": 1.0,
+      "cos_assist_vs_gen": 1.0,
+      "cos_user_vs_gen": 0.9696,
+      "cos_shuffle_vs_gen": 0.8631,
+      "pix_gen_vs_A": 0.0,
+      "pix_assist_vs_gen": 10.95,
+      "pix_user_vs_assist": 42.01,
+      "pix_shuffle_vs_assist": 63.44,
+      "rgb_gen": [
+        158,
+        196,
+        185
+      ],
+      "rgb_assist": [
+        158,
+        196,
+        186
+      ],
+      "rgb_user": [
+        181,
+        206,
+        210
+      ],
+      "rgb_shuffle": [
+        165,
+        194,
+        217
+      ],
+      "d_user_vs_assist": 34.2,
+      "d_shuffle_vs_assist": 31.5,
+      "d_gen_vs_nonvis": 109.3,
+      "d_assist_vs_nonvis": 109.8,
+      "d_user_vs_nonvis": 140.6,
+      "d_shuffle_vs_nonvis": 130.0
+    },
+    {
+      "i": 1,
+      "topic": "fire",
+      "words": 465,
+      "cos_gen_vs_saved": 1.0,
+      "cos_assist_vs_gen": 1.0,
+      "cos_user_vs_gen": 0.9582,
+      "cos_shuffle_vs_gen": 0.8538,
+      "pix_gen_vs_A": 0.0,
+      "pix_assist_vs_gen": 13.0,
+      "pix_user_vs_assist": 60.99,
+      "pix_shuffle_vs_assist": 82.05,
+      "rgb_gen": [
+        136,
+        121,
+        86
+      ],
+      "rgb_assist": [
+        136,
+        123,
+        88
+      ],
+      "rgb_user": [
+        176,
+        132,
+        92
+      ],
+      "rgb_shuffle": [
+        255,
+        172,
+        79
+      ],
+      "d_user_vs_assist": 41.6,
+      "d_shuffle_vs_assist": 128.8,
+      "d_gen_vs_nonvis": 54.9,
+      "d_assist_vs_nonvis": 53.5,
+      "d_user_vs_nonvis": 82.3,
+      "d_shuffle_vs_nonvis": 167.6
+    },
+    {
+      "i": 2,
+      "topic": "wheat",
+      "words": 482,
+      "cos_gen_vs_saved": 1.0,
+      "cos_assist_vs_gen": 1.0,
+      "cos_user_vs_gen": 0.9696,
+      "cos_shuffle_vs_gen": 0.8756,
+      "pix_gen_vs_A": 0.0,
+      "pix_assist_vs_gen": 8.0,
+      "pix_user_vs_assist": 38.7,
+      "pix_shuffle_vs_assist": 132.36,
+      "rgb_gen": [
+        134,
+        125,
+        89
+      ],
+      "rgb_assist": [
+        135,
+        125,
+        88
+      ],
+      "rgb_user": [
+        153,
+        143,
+        118
+      ],
+      "rgb_shuffle": [
+        255,
+        237,
+        252
+      ],
+      "d_user_vs_assist": 39.3,
+      "d_shuffle_vs_assist": 231.7,
+      "d_gen_vs_nonvis": 51.9,
+      "d_assist_vs_nonvis": 52.9,
+      "d_user_vs_nonvis": 56.5,
+      "d_shuffle_vs_nonvis": 226.6
+    },
+    {
+      "i": 3,
+      "topic": "ggb_fog",
+      "words": 467,
+      "cos_gen_vs_saved": 1.0,
+      "cos_assist_vs_gen": 1.0,
+      "cos_user_vs_gen": 0.9611,
+      "cos_shuffle_vs_gen": 0.8598,
+      "pix_gen_vs_A": 0.0,
+      "pix_assist_vs_gen": 10.11,
+      "pix_user_vs_assist": 43.9,
+      "pix_shuffle_vs_assist": 84.22,
+      "rgb_gen": [
+        141,
+        170,
+        174
+      ],
+      "rgb_assist": [
+        141,
+        169,
+        174
+      ],
+      "rgb_user": [
+        178,
+        188,
+        193
+      ],
+      "rgb_shuffle": [
+        253,
+        242,
+        211
+      ],
+      "d_user_vs_assist": 45.2,
+      "d_shuffle_vs_assist": 138.3,
+      "d_gen_vs_nonvis": 77.3,
+      "d_assist_vs_nonvis": 76.9,
+      "d_user_vs_nonvis": 118.7,
+      "d_shuffle_vs_nonvis": 209.2
+    },
+    {
+      "i": 4,
+      "topic": "coffee",
+      "words": 451,
+      "cos_gen_vs_saved": 1.0,
+      "cos_assist_vs_gen": 1.0,
+      "cos_user_vs_gen": 0.9718,
+      "cos_shuffle_vs_gen": 0.879,
+      "pix_gen_vs_A": 0.0,
+      "pix_assist_vs_gen": 11.49,
+      "pix_user_vs_assist": 50.68,
+      "pix_shuffle_vs_assist": 92.61,
+      "rgb_gen": [
+        136,
+        164,
+        147
+      ],
+      "rgb_assist": [
+        135,
+        165,
+        148
+      ],
+      "rgb_user": [
+        157,
+        161,
+        150
+      ],
+      "rgb_shuffle": [
+        230,
+        212,
+        233
+      ],
+      "d_user_vs_assist": 21.5,
+      "d_shuffle_vs_assist": 135.3,
+      "d_gen_vs_nonvis": 58.7,
+      "d_assist_vs_nonvis": 59.3,
+      "d_user_vs_nonvis": 70.6,
+      "d_shuffle_vs_nonvis": 186.7
+    },
+    {
+      "i": 5,
+      "topic": "snow",
+      "words": 478,
+      "cos_gen_vs_saved": 1.0,
+      "cos_assist_vs_gen": 1.0,
+      "cos_user_vs_gen": 0.9883,
+      "cos_shuffle_vs_gen": 0.8949,
+      "pix_gen_vs_A": 0.0,
+      "pix_assist_vs_gen": 12.15,
+      "pix_user_vs_assist": 44.97,
+      "pix_shuffle_vs_assist": 87.75,
+      "rgb_gen": [
+        150,
+        168,
+        165
+      ],
+      "rgb_assist": [
+        155,
+        171,
+        167
+      ],
+      "rgb_user": [
+        167,
+        183,
+        188
+      ],
+      "rgb_shuffle": [
+        246,
+        252,
+        254
+      ],
+      "d_user_vs_assist": 27.5,
+      "d_shuffle_vs_assist": 149.5,
+      "d_gen_vs_nonvis": 76.5,
+      "d_assist_vs_nonvis": 81.7,
+      "d_user_vs_nonvis": 107.0,
+      "d_shuffle_vs_nonvis": 230.1
+    },
+    {
+      "i": 6,
+      "topic": "lavender",
+      "words": 481,
+      "cos_gen_vs_saved": 1.0,
+      "cos_assist_vs_gen": 1.0,
+      "cos_user_vs_gen": 0.9515,
+      "cos_shuffle_vs_gen": 0.8257,
+      "pix_gen_vs_A": 0.0,
+      "pix_assist_vs_gen": 9.03,
+      "pix_user_vs_assist": 38.97,
+      "pix_shuffle_vs_assist": 151.49,
+      "rgb_gen": [
+        96,
+        104,
+        98
+      ],
+      "rgb_assist": [
+        97,
+        105,
+        100
+      ],
+      "rgb_user": [
+        128,
+        130,
+        129
+      ],
+      "rgb_shuffle": [
+        254,
+        251,
+        251
+      ],
+      "d_user_vs_assist": 49.5,
+      "d_shuffle_vs_assist": 262.0,
+      "d_gen_vs_nonvis": 36.4,
+      "d_assist_vs_nonvis": 34.8,
+      "d_user_vs_nonvis": 26.8,
+      "d_shuffle_vs_nonvis": 233.3
+    },
+    {
+      "i": 7,
+      "topic": "desert",
+      "words": 479,
+      "cos_gen_vs_saved": 1.0,
+      "cos_assist_vs_gen": 1.0,
+      "cos_user_vs_gen": 0.9646,
+      "cos_shuffle_vs_gen": 0.8634,
+      "pix_gen_vs_A": 0.0,
+      "pix_assist_vs_gen": 14.03,
+      "pix_user_vs_assist": 61.79,
+      "pix_shuffle_vs_assist": 80.87,
+      "rgb_gen": [
+        137,
+        140,
+        105
+      ],
+      "rgb_assist": [
+        136,
+        139,
+        102
+      ],
+      "rgb_user": [
+        175,
+        168,
+        148
+      ],
+      "rgb_shuffle": [
+        255,
+        180,
+        151
+      ],
+      "d_user_vs_assist": 66.9,
+      "d_shuffle_vs_assist": 134.8,
+      "d_gen_vs_nonvis": 47.1,
+      "d_assist_vs_nonvis": 48.0,
+      "d_user_vs_nonvis": 88.4,
+      "d_shuffle_vs_nonvis": 163.4
+    }
+  ]
+}

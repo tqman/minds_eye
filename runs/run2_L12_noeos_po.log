@@ -1,0 +1,46 @@
+/home/quark/miniconda3/lib/python3.12/site-packages/transformers/models/auto/image_processing_auto.py:640: FutureWarning: The image_processor_class argument is deprecated and will be removed in v4.42. Please use `slow_image_processor_class`, or `fast_image_processor_class` instead
+  warnings.warn(
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+Python version is above 3.10, patching the collections module.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.64s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  1.95s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.05s/it]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+ggb: dir_norm=74.4 resid_norm=207.8
+coffee: dir_norm=28.4 resid_norm=188.4
+circle: dir_norm=49.2 resid_norm=196.3
+{'label': 'ggb_r1.0', 'decode': 'argmax', 'clip_coffee': 0.247, 'clip_ggb': 0.121, 'clip_circle': 0.087, 'frac_coffee>0.5': 0.25, 'frac_ggb>0.5': 0.0, 'frac_circle>0.5': 0.0, 'cond': 'ggb', 'ratio': 1.0, 'scale': 2.6402, 'mean_words': 431.0, 'eos_mean': -1.0, 'text_kw_coffee': 0.0, 'text_kw_ggb': 0.0, 'text_kw_circle': 0.38}
+{'label': 'ggb_r1.0', 'decode': 'sampled', 'clip_coffee': 0.288, 'clip_ggb': 0.129, 'clip_circle': 0.108, 'frac_coffee>0.5': 0.125, 'frac_ggb>0.5': 0.0, 'frac_circle>0.5': 0.125, 'cond': 'ggb', 'ratio': 1.0, 'scale': 2.6402, 'mean_words': 431.0, 'eos_mean': -1.0, 'text_kw_coffee': 0.0, 'text_kw_ggb': 0.0, 'text_kw_circle': 0.38}
+ggb_r1.0 done 112s
+{'label': 'ggb_r2.0', 'decode': 'argmax', 'clip_coffee': 0.073, 'clip_ggb': 0.068, 'clip_circle': 0.036, 'frac_coffee>0.5': 0.0, 'frac_ggb>0.5': 0.0, 'frac_circle>0.5': 0.0, 'cond': 'ggb', 'ratio': 2.0, 'scale': 5.2803, 'mean_words': 460.6, 'eos_mean': -1.0, 'text_kw_coffee': 0.0, 'text_kw_ggb': 4.12, 'text_kw_circle': 1.5}
+{'label': 'ggb_r2.0', 'decode': 'sampled', 'clip_coffee': 0.14, 'clip_ggb': 0.067, 'clip_circle': 0.076, 'frac_coffee>0.5': 0.125, 'frac_ggb>0.5': 0.0, 'frac_circle>0.5': 0.0, 'cond': 'ggb', 'ratio': 2.0, 'scale': 5.2803, 'mean_words': 460.6, 'eos_mean': -1.0, 'text_kw_coffee': 0.0, 'text_kw_ggb': 4.12, 'text_kw_circle': 1.5}
+ggb_r2.0 done 112s
+{'label': 'coffee_r1.0', 'decode': 'argmax', 'clip_coffee': 0.236, 'clip_ggb': 0.097, 'clip_circle': 0.102, 'frac_coffee>0.5': 0.25, 'frac_ggb>0.5': 0.0, 'frac_circle>0.5': 0.0, 'cond': 'coffee', 'ratio': 1.0, 'scale': 6.9188, 'mean_words': 457.2, 'eos_mean': -1.0, 'text_kw_coffee': 0.0, 'text_kw_ggb': 0.0, 'text_kw_circle': 1.62}
+{'label': 'coffee_r1.0', 'decode': 'sampled', 'clip_coffee': 0.09, 'clip_ggb': 0.063, 'clip_circle': 0.022, 'frac_coffee>0.5': 0.0, 'frac_ggb>0.5': 0.0, 'frac_circle>0.5': 0.0, 'cond': 'coffee', 'ratio': 1.0, 'scale': 6.9188, 'mean_words': 457.2, 'eos_mean': -1.0, 'text_kw_coffee': 0.0, 'text_kw_ggb': 0.0, 'text_kw_circle': 1.62}
+coffee_r1.0 done 118s
+{'label': 'coffee_r2.0', 'decode': 'argmax', 'clip_coffee': 0.122, 'clip_ggb': 0.181, 'clip_circle': 0.069, 'frac_coffee>0.5': 0.0, 'frac_ggb>0.5': 0.0, 'frac_circle>0.5': 0.0, 'cond': 'coffee', 'ratio': 2.0, 'scale': 13.8376, 'mean_words': 437.0, 'eos_mean': -1.0, 'text_kw_coffee': 2.12, 'text_kw_ggb': 0.0, 'text_kw_circle': 0.38}
+{'label': 'coffee_r2.0', 'decode': 'sampled', 'clip_coffee': 0.183, 'clip_ggb': 0.167, 'clip_circle': 0.096, 'frac_coffee>0.5': 0.0, 'frac_ggb>0.5': 0.0, 'frac_circle>0.5': 0.0, 'cond': 'coffee', 'ratio': 2.0, 'scale': 13.8376, 'mean_words': 437.0, 'eos_mean': -1.0, 'text_kw_coffee': 2.12, 'text_kw_ggb': 0.0, 'text_kw_circle': 0.38}
+coffee_r2.0 done 118s
+{'label': 'circle_r1.0', 'decode': 'argmax', 'clip_coffee': 0.112, 'clip_ggb': 0.154, 'clip_circle': 0.032, 'frac_coffee>0.5': 0.0, 'frac_ggb>0.5': 0.0, 'frac_circle>0.5': 0.0, 'cond': 'circle', 'ratio': 1.0, 'scale': 3.9929, 'mean_words': 466.8, 'eos_mean': -1.0, 'text_kw_coffee': 0.0, 'text_kw_ggb': 0.0, 'text_kw_circle': 0.5}
+{'label': 'circle_r1.0', 'decode': 'sampled', 'clip_coffee': 0.11, 'clip_ggb': 0.165, 'clip_circle': 0.048, 'frac_coffee>0.5': 0.0, 'frac_ggb>0.5': 0.125, 'frac_circle>0.5': 0.0, 'cond': 'circle', 'ratio': 1.0, 'scale': 3.9929, 'mean_words': 466.8, 'eos_mean': -1.0, 'text_kw_coffee': 0.0, 'text_kw_ggb': 0.0, 'text_kw_circle': 0.5}
+circle_r1.0 done 120s
+{'label': 'circle_r2.0', 'decode': 'argmax', 'clip_coffee': 0.209, 'clip_ggb': 0.129, 'clip_circle': 0.095, 'frac_coffee>0.5': 0.125, 'frac_ggb>0.5': 0.0, 'frac_circle>0.5': 0.0, 'cond': 'circle', 'ratio': 2.0, 'scale': 7.9858, 'mean_words': 484.8, 'eos_mean': -1.0, 'text_kw_coffee': 0.0, 'text_kw_ggb': 0.0, 'text_kw_circle': 0.88}
+{'label': 'circle_r2.0', 'decode': 'sampled', 'clip_coffee': 0.226, 'clip_ggb': 0.111, 'clip_circle': 0.078, 'frac_coffee>0.5': 0.125, 'frac_ggb>0.5': 0.0, 'frac_circle>0.5': 0.0, 'cond': 'circle', 'ratio': 2.0, 'scale': 7.9858, 'mean_words': 484.8, 'eos_mean': -1.0, 'text_kw_coffee': 0.0, 'text_kw_ggb': 0.0, 'text_kw_circle': 0.88}
+circle_r2.0 done 123s
+{'label': 'random_r2.0', 'decode': 'argmax', 'clip_coffee': 0.076, 'clip_ggb': 0.128, 'clip_circle': 0.11, 'frac_coffee>0.5': 0.0, 'frac_ggb>0.5': 0.125, 'frac_circle>0.5': 0.0, 'cond': 'random', 'ratio': 2.0, 'scale': 5.2803, 'mean_words': 475.6, 'eos_mean': -1.0, 'text_kw_coffee': 0.12, 'text_kw_ggb': 0.0, 'text_kw_circle': 0.62}
+{'label': 'random_r2.0', 'decode': 'sampled', 'clip_coffee': 0.1, 'clip_ggb': 0.153, 'clip_circle': 0.066, 'frac_coffee>0.5': 0.0, 'frac_ggb>0.5': 0.0, 'frac_circle>0.5': 0.0, 'cond': 'random', 'ratio': 2.0, 'scale': 5.2803, 'mean_words': 475.6, 'eos_mean': -1.0, 'text_kw_coffee': 0.12, 'text_kw_ggb': 0.0, 'text_kw_circle': 0.62}
+random_r2.0 done 122s
+{'label': 'random_s2_r2.0', 'decode': 'argmax', 'clip_coffee': 0.115, 'clip_ggb': 0.246, 'clip_circle': 0.04, 'frac_coffee>0.5': 0.0, 'frac_ggb>0.5': 0.125, 'frac_circle>0.5': 0.0, 'cond': 'random_s2', 'ratio': 2.0, 'scale': 5.2803, 'mean_words': 289.0, 'eos_mean': -1.0, 'text_kw_coffee': 0.0, 'text_kw_ggb': 0.0, 'text_kw_circle': 0.12}
+{'label': 'random_s2_r2.0', 'decode': 'sampled', 'clip_coffee': 0.103, 'clip_ggb': 0.225, 'clip_circle': 0.064, 'frac_coffee>0.5': 0.0, 'frac_ggb>0.5': 0.125, 'frac_circle>0.5': 0.0, 'cond': 'random_s2', 'ratio': 2.0, 'scale': 5.2803, 'mean_words': 289.0, 'eos_mean': -1.0, 'text_kw_coffee': 0.0, 'text_kw_ggb': 0.0, 'text_kw_circle': 0.12}
+random_s2_r2.0 done 122s
+
+== summary (argmax decode) ==
+                ggb_r1.0  clip_coffee=0.247  clip_ggb=0.121  clip_circle=0.087  kw_coffee=0.0  kw_ggb=0.0  kw_circle=0.38
+                ggb_r2.0  clip_coffee=0.073  clip_ggb=0.068  clip_circle=0.036  kw_coffee=0.0  kw_ggb=4.12  kw_circle=1.5
+             coffee_r1.0  clip_coffee=0.236  clip_ggb=0.097  clip_circle=0.102  kw_coffee=0.0  kw_ggb=0.0  kw_circle=1.62
+             coffee_r2.0  clip_coffee=0.122  clip_ggb=0.181  clip_circle=0.069  kw_coffee=2.12  kw_ggb=0.0  kw_circle=0.38
+             circle_r1.0  clip_coffee=0.112  clip_ggb=0.154  clip_circle=0.032  kw_coffee=0.0  kw_ggb=0.0  kw_circle=0.5
+             circle_r2.0  clip_coffee=0.209  clip_ggb=0.129  clip_circle=0.095  kw_coffee=0.0  kw_ggb=0.0  kw_circle=0.88
+             random_r2.0  clip_coffee=0.076  clip_ggb=0.128  clip_circle=0.110  kw_coffee=0.12  kw_ggb=0.0  kw_circle=0.62
+          random_s2_r2.0  clip_coffee=0.115  clip_ggb=0.246  clip_circle=0.040  kw_coffee=0.0  kw_ggb=0.0  kw_circle=0.12
+
+total 970s

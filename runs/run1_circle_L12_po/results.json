@@ -1,0 +1,59 @@
+{
+  "concept": "circle",
+  "layer": 12,
+  "prompt_only": true,
+  "dir_norm": 49.173038482666016,
+  "resid_norm": 196.3419189453125,
+  "rows": [
+    {
+      "label": "baseline",
+      "cond": "circle",
+      "ratio": 0.0,
+      "scale": 0.0,
+      "mean_coffee": 0.083,
+      "frac_over_0.5": 0.0,
+      "hough_mean": 0.25,
+      "hough_frac_ge1": 0.125
+    },
+    {
+      "label": "circle_r1.0",
+      "cond": "circle",
+      "ratio": 1.0,
+      "scale": 3.9929,
+      "mean_coffee": 0.383,
+      "frac_over_0.5": 0.312,
+      "hough_mean": 0.25,
+      "hough_frac_ge1": 0.188
+    },
+    {
+      "label": "random_r1.0",
+      "cond": "random",
+      "ratio": 1.0,
+      "scale": 3.9929,
+      "mean_coffee": 0.097,
+      "frac_over_0.5": 0.0,
+      "hough_mean": 0.19,
+      "hough_frac_ge1": 0.125
+    },
+    {
+      "label": "circle_r2.0",
+      "cond": "circle",
+      "ratio": 2.0,
+      "scale": 7.9858,
+      "mean_coffee": 0.345,
+      "frac_over_0.5": 0.312,
+      "hough_mean": 0.12,
+      "hough_frac_ge1": 0.062
+    },
+    {
+      "label": "random_r2.0",
+      "cond": "random",
+      "ratio": 2.0,
+      "scale": 7.9858,
+      "mean_coffee": 0.076,
+      "frac_over_0.5": 0.062,
+      "hough_mean": 0.0,
+      "hough_frac_ge1": 0.0
+    }
+  ]
+}

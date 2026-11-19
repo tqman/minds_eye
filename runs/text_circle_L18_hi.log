@@ -1,0 +1,29 @@
+/home/quark/miniconda3/lib/python3.12/site-packages/transformers/models/auto/image_processing_auto.py:640: FutureWarning: The image_processor_class argument is deprecated and will be removed in v4.42. Please use `slow_image_processor_class`, or `fast_image_processor_class` instead
+  warnings.warn(
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+Python version is above 3.10, patching the collections module.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.83s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  1.93s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.07s/it]
+layer 18: dir_norm=84.9 resid_norm=341.0
+{'label': 'baseline', 'cond': 'circle', 'ratio': 0.0, 'scale': 0.0, 'frac_any': 0.25, 'hits_per100': 0.77, 'mean_words': 62.9}
+{'label': 'circle_r1.0', 'cond': 'circle', 'ratio': 1.0, 'scale': 4.0139, 'frac_any': 0.625, 'hits_per100': 1.74, 'mean_words': 73.6}
+{'label': 'random_r1.0', 'cond': 'random', 'ratio': 1.0, 'scale': 4.0139, 'frac_any': 0.125, 'hits_per100': 0.23, 'mean_words': 54.2}
+{'label': 'circle_r1.5', 'cond': 'circle', 'ratio': 1.5, 'scale': 6.0208, 'frac_any': 0.5, 'hits_per100': 2.07, 'mean_words': 62.8}
+{'label': 'random_r1.5', 'cond': 'random', 'ratio': 1.5, 'scale': 6.0208, 'frac_any': 0.5, 'hits_per100': 2.62, 'mean_words': 62.5}
+{'label': 'circle_r2.0', 'cond': 'circle', 'ratio': 2.0, 'scale': 8.0277, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 31.2}
+{'label': 'random_r2.0', 'cond': 'random', 'ratio': 2.0, 'scale': 8.0277, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 29.2}
+{'label': 'circle_r3.0', 'cond': 'circle', 'ratio': 3.0, 'scale': 12.0416, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 14.6}
+{'label': 'random_r3.0', 'cond': 'random', 'ratio': 3.0, 'scale': 12.0416, 'frac_any': 0.0, 'hits_per100': 0.0, 'mean_words': 16.5}
+
+== summary ==
+        baseline  frac_any=0.250  hits/100w=0.77  words=62.9
+     circle_r1.0  frac_any=0.625  hits/100w=1.74  words=73.6
+     random_r1.0  frac_any=0.125  hits/100w=0.23  words=54.2
+     circle_r1.5  frac_any=0.500  hits/100w=2.07  words=62.8
+     random_r1.5  frac_any=0.500  hits/100w=2.62  words=62.5
+     circle_r2.0  frac_any=0.000  hits/100w=0.00  words=31.2
+     random_r2.0  frac_any=0.000  hits/100w=0.00  words=29.2
+     circle_r3.0  frac_any=0.000  hits/100w=0.00  words=14.6
+     random_r3.0  frac_any=0.000  hits/100w=0.00  words=16.5
+
+total 168s

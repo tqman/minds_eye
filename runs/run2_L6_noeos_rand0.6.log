@@ -1,0 +1,16 @@
+/home/quark/miniconda3/lib/python3.12/site-packages/transformers/models/auto/image_processing_auto.py:640: FutureWarning: The image_processor_class argument is deprecated and will be removed in v4.42. Please use `slow_image_processor_class`, or `fast_image_processor_class` instead
+  warnings.warn(
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+Python version is above 3.10, patching the collections module.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.08s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.23s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.36s/it]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+ggb: dir_norm=13.1 resid_norm=66.7
+{'label': 'random_r0.6', 'decode': 'argmax', 'clip_coffee': 0.115, 'clip_ggb': 0.225, 'clip_circle': 0.092, 'frac_coffee>0.5': 0.0, 'frac_ggb>0.5': 0.0, 'frac_circle>0.5': 0.0, 'cond': 'random', 'ratio': 0.6, 'scale': 3.0645, 'mean_words': 463.2, 'eos_mean': -1.0, 'text_kw_coffee': 0.0, 'text_kw_ggb': 0.0, 'text_kw_circle': 1.0}
+{'label': 'random_r0.6', 'decode': 'sampled', 'clip_coffee': 0.073, 'clip_ggb': 0.187, 'clip_circle': 0.078, 'frac_coffee>0.5': 0.0, 'frac_ggb>0.5': 0.0, 'frac_circle>0.5': 0.0, 'cond': 'random', 'ratio': 0.6, 'scale': 3.0645, 'mean_words': 463.2, 'eos_mean': -1.0, 'text_kw_coffee': 0.0, 'text_kw_ggb': 0.0, 'text_kw_circle': 1.0}
+random_r0.6 done 125s
+
+== summary (argmax decode) ==
+             random_r0.6  clip_coffee=0.115  clip_ggb=0.225  clip_circle=0.092  kw_coffee=0.0  kw_ggb=0.0  kw_circle=1.0
+
+total 149s

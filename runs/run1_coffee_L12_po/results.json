@@ -1,0 +1,49 @@
+{
+  "concept": "coffee",
+  "layer": 12,
+  "prompt_only": true,
+  "dir_norm": 28.378026962280273,
+  "resid_norm": 188.38365173339844,
+  "rows": [
+    {
+      "label": "baseline",
+      "cond": "coffee",
+      "ratio": 0.0,
+      "scale": 0.0,
+      "mean_coffee": 0.024,
+      "frac_over_0.5": 0.0
+    },
+    {
+      "label": "coffee_r1.0",
+      "cond": "coffee",
+      "ratio": 1.0,
+      "scale": 6.6384,
+      "mean_coffee": 0.104,
+      "frac_over_0.5": 0.062
+    },
+    {
+      "label": "random_r1.0",
+      "cond": "random",
+      "ratio": 1.0,
+      "scale": 6.6384,
+      "mean_coffee": 0.064,
+      "frac_over_0.5": 0.0
+    },
+    {
+      "label": "coffee_r2.0",
+      "cond": "coffee",
+      "ratio": 2.0,
+      "scale": 13.2767,
+      "mean_coffee": 0.116,
+      "frac_over_0.5": 0.125
+    },
+    {
+      "label": "random_r2.0",
+      "cond": "random",
+      "ratio": 2.0,
+      "scale": 13.2767,
+      "mean_coffee": 0.017,
+      "frac_over_0.5": 0.0
+    }
+  ]
+}

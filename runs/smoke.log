@@ -1,0 +1,13 @@
+/home/quark/miniconda3/lib/python3.12/site-packages/transformers/models/auto/image_processing_auto.py:640: FutureWarning: The image_processor_class argument is deprecated and will be removed in v4.42. Please use `slow_image_processor_class`, or `fast_image_processor_class` instead
+  warnings.warn(
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+Python version is above 3.10, patching the collections module.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:15<00:15, 15.63s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:24<00:00, 11.59s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:24<00:00, 12.19s/it]
+loaded in 37s; layers=30 d=4096; vram=13.8GB
+sft prompt repr: '<|User|>: hello\n\n<|Assistant|>:'
+text: 'The capital of France is Paris.'
+write 0.6s
+draw 4 in 15.8s; peak vram=16.8GB
+saved /home/quark/src/minds_eye/runs/smoke/bicycle.jpg
+acts (1, 30, 4096) per-layer norms [17.6, 21.5, 26.9, 34.8, 41.7, 51.0, 58.8, 67.2, 68.9, 90.1, 99.3, 113.8, 145.2, 144.5, 164.9, 151.8, 194.8, 281.6, 289.2, 402.5, 510.3, 616.0, 854.8, 984.0, 1061.7, 1110.2, 1223.7, 1359.7, 1454.2, 15.6]
